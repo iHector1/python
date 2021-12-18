@@ -1,0 +1,8 @@
+import pyautogui as kw
+
+
+def autowrite(word):
+    for i in word.split():
+        kw.write(i)
+        kw.press('enter')
+autowrite("Tu ere la numero uno y como tu, no hay dos — (Ah-ah)Con la cama, somos tre, ¿por que no nos comemo? (Ah)Estoy loco — de ponerte en cuatro-oh — (Ah)Pero a ti sin cojone, aunque nos queremo Me llama a las seisPafumarte otra de hazeSon siete lo pecado que te quiero cometerChingamo en la V8, ni llegamos al motelComenzamo a la nueve y terminamos a la die A. m. Cuando la toco, ella de na se viene Estoy pa darte lo que tu me ordene Solo me busca cuando te conviene—, ey A. m. Cuando la toco, ella de na se viene Estoy pa darte lo que tu me ordene Solo me busca cuando te conviene—, ey Tu eres la numero uno y como tu, no hay dos — (Ah-ah) Con la cama, somos tre, ¿por que no no comemo? Estoy loco — de ponerte en cuatro-oh (Eh—, eh) Pero a ti sin cojone, aunque nos queremo Y ya tu me conoce, a tresciento por la Montse Me das la verde y llego ante de la once Salimo e Carolina, terminamo por Ponce, si tu me quieres ver ¿Por que me pichea, entonce? Dejate ver Pa terminar lo que no hicimos ayer El tiempo e corto y no lo voa perder Yo quiero volver a probar tu piel ante que sean las doce A. m. Cuando la toco, ella de na se viene Estoy pa darte lo que tu me ordene Solo me busca cuando te conviene—, ey A. m. Cuando la toco, ella de na se viene Estoy pa darte lo que tu me ordene Solo me busca cuando te conviene—, ey Tu ere la numero uno y como tu, no hay dos Con la cama, somos tre, ¿por que no no comemo? Estoy loco — de ponerte en cuatro-oh (Eh—, eh) Pero a ti sin cojone, aunque nos queremo (Jaja)")
